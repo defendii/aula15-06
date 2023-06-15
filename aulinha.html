@@ -11,18 +11,26 @@
             background-color: lightgrey;
             border: 1px solid black;
             max-width: 500px;
-            height: 400px;
+            height: 450px;
 
             display: flex;
 
             /* DEfine a direção do eixo principal */
             /* flex-direction: row; */
-            
+
             /* DEfine se haverá quebra de 'linha' uando os elementos não couberem no container*/
             /* flex-wrap: row wrap;*/
 
             /* Shorthand para definir o flex-direction e o flex-wrap*/
             flex-flow: row wrap;
+
+            /* Alinhamento dos elementos no eixo principal*/
+            justify-content: center;
+
+            /* Alinhamento dos elementos do eixo transversal */
+            align-items: flex-start;
+
+            /* align-content: flex-start; */
         }
 
         .box{
@@ -45,6 +53,12 @@
         <div class="box">7</div>
         <div class="box">8</div>
         <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+        <div class="box">13</div>
+        <div class="box">14</div>
+        <div class="box">15</div>
     </div>
 </body>
 </html>
