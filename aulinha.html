@@ -10,12 +10,19 @@
         .container{
             background-color: lightgrey;
             border: 1px solid black;
-            max-width: 600px;
-            height: 300px;
+            max-width: 500px;
+            height: 400px;
 
             display: flex;
+
             /* DEfine a direção do eixo principal */
-            flex-direction: row;
+            /* flex-direction: row; */
+            
+            /* DEfine se haverá quebra de 'linha' uando os elementos não couberem no container*/
+            /* flex-wrap: row wrap;*/
+
+            /* Shorthand para definir o flex-direction e o flex-wrap*/
+            flex-flow: row wrap;
         }
 
         .box{
@@ -32,6 +39,12 @@
         <div class="box">1</div>
         <div class="box">2</div>
         <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
     </div>
 </body>
 </html>
