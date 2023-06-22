@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            background-color: #CCCCCC;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+
+        .box{
+            background-color: greenyellow;
+            border: 1px solid black;
+            flex-grow: 1;
+        }
+
+        .altura50{
+            height: 50px;
+        }
+
+        .order{
+            order: 1;
+        }
+
+        .grow2{
+            flex-grow: 3;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box grow2">1</div>
+        <div class="box order">2</div>
+        <div class="box">3</div>
+        <div class="box">3</div>
+        <div class="box">3</div>
+    </div>
+</body>
+</html>
